@@ -1,0 +1,36 @@
+form
+{
+    border: solid 1px;
+    padding: 20px;
+}
+
+#Podstawowe_dane
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Formatowanie_bloku
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Kolory
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Formatowanie_tekstu
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#div_button
+{
+    display: flex;
+    justify-content:center;
+    margin-top: 15px;
+}
