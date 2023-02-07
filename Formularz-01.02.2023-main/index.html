@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Formularz</title>
+</head>
+<body>
+    
+    <form action="#" id="formularz">
+        <fieldset id="Podstawowe_dane">
+            <legend>Podstawowe dane</legend>
+            <label for="">
+                Nazwa elementu:
+                <select name="nazwa_elementu" id="nazwa_elementu">
+                    <optgroup label="podstawowe"> 
+                        <option value="p">p</option>
+                        <option value="h1">h1</option>
+                        <option value="h2">h2</option>
+                        <option value="h3">h3</option>
+                        <option value="h4">h4</option>
+                        <option value="h5">h5</option>
+                        <option value="h6">h6</option></optgroup>
+                
+                        <optgroup label="znacznik sekcji">
+                            <option value="div">div</option>
+                            <option value="header">header</option>
+                            <option value="main">main</option>
+                            <option value="aside">aside</option>
+                            <option value="section">section</option>
+                            <option value="article">article</option>
+                            <option value="footer">footer</option>
+                        </optgroup>
+                
+            </select>
+            </label>
+            
+<label for="tekst">
+    Tekst w elemencie:
+    <input type="text" id="tekst">
+</label>
+            
+<label for="">
+    Data w elemencie:
+            <input type="date" value="2023-02-07">
+</label>
+        </fieldset>
+        <fieldset id="Formatowanie_bloku">
+            <legend>Formatowanie bloku</legend>
+        <label>
+            Padding w elemencie:  0rem
+            <input type="range" min="0" max="1" step="0.2" value="0.6">
+             1rem
+        </label>
+        <label>
+            Margines elemntu:  0rem
+            <input type="range" min="0" max="1" step="0.2" value="0.2">
+             1rem
+        </label>          
+        </fieldset>
+        <fieldset id="Kolory">
+            <legend>Kolory</legend>
+            <label>
+                Kolor czcionki:
+                <input type="color">
+            </label>
+            <label>
+                Kolor tła elementu:
+                <input type="color">
+            </label>
+        </fieldset>
+        <fieldset id="Formatowanie_tekstu">
+            <legend>Formatowanie tekstu</legend>
+            <fieldset>
+                <legend>Odległość między literami (rem):</legend>
+                <label for="">
+                <input type="number" style="max-width: 75px;">
+                rem
+                </label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>wyrówanie tekstu</legend>
+                <label for="lewa">
+                    lewa:
+                    <input type="radio" name="wyrownanie_tekstu" id="lewa" checked>
+                </label>
+                 <label for="srodek">
+                    środek:
+                    <input type="radio" name="wyrownanie_tekstu" id="srodek">
+                </label>
+                <label for="prawa">
+                    prawa:
+                    <input type="radio" name="wyrownanie_tekstu" id="prawa">
+                </label>               
+            </fieldset>
+            <fieldset>
+                <legend>dekoracja tekstu</legend>
+                <label for="">
+                    podkreślenie:
+                    <input type="checkbox">
+                </label>
+                <label for="">
+                    przekreślenie:
+                    <input type="checkbox">
+                </label>
+                <label for="">
+                    nadkreślenie:
+                    <input type="checkbox">
+                </label>
+            </fieldset>
+        </fieldset>
+        <div id="div_button">
+            <button>Utwórz</button>
+        </div>
+        
+    </form>
+
+</body>
+</html>

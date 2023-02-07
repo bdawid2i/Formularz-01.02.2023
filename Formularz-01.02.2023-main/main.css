@@ -1,0 +1,27 @@
+form
+{
+    box-shadow: 0 0 2px 4px #999;
+    padding: 20px;
+}
+
+fieldset
+{
+    border-radius: 0.5rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#div_button
+{
+    display: flex;
+    justify-content:center;
+    margin-top: 15px;
+}
+
+label
+{
+    display: block;
+    margin: 0.5rem 0.5rem;
+}
